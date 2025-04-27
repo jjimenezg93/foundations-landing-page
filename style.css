@@ -101,58 +101,82 @@ figcaption {
 }
 
 .information {
-    padding: 50px 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 
-    h1 {
-        color: #1f2937;
-        font-size: 36px;
-        font-weight: 900;
-    }
+  h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+  }
 }
 
 .info-cards {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
 
-    li {
-        width: 120px;
-    }
+  li {
+    width: 120px;
+  }
 
-    img {
-        border: 2px solid #3882f6;
-        border-radius: 10px;
-    }
+  img {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+  }
 }
 
 .testimonial {
-    display: flex;
-    flex-direction: column;
-    background-color: #e5e7eb;
-    padding: 100px 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 100px 150px;
 }
 
 .testimonial :nth-child(1) {
-    font-style: italic;
-    font-weight: 300;
-    font-size: 36px;
-    color: #1f2937;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  color: #1f2937;
 }
 
 .testimonial :nth-child(2) {
-    font-weight: bolder;
-    font-size: 24px;
-    align-self: flex-end;
+  font-weight: bolder;
+  font-size: 24px;
+  align-self: flex-end;
+}
+
+.newsletter {
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 100px 100px;
+  padding: 50px 100px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-size: smaller;
+    color: #e5e7eb;
+  }
+
+  button {
+    border-color: #f9faf8;
+  }
+
+  button:hover {
+    border-color: #e0e0e0;
+  }
 }
 
 footer {
-    text-align: center;
-    justify-content: center;
-    padding: 25px 0;
-    font-size: 16px;
-    font-weight: 300;
+  text-align: center;
+  justify-content: center;
+  padding: 25px 0;
+  font-size: 16px;
+  font-weight: 300;
 }
