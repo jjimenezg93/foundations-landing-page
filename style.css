@@ -46,7 +46,7 @@ nav ul {
 
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 100px;
   align-items: start;
 }
