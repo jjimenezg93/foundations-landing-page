@@ -22,7 +22,7 @@ footer {
 }
 
 header {
-  padding: 20px 100px 0;
+  padding: 20px 100px 100px;
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -88,10 +88,43 @@ button:hover {
   border-color: #f9faf8;
 }
 
-.hero figure img {
+figure img {
   object-fit: cover;
 }
 
 figcaption {
   font-size: 14px;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.information {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    h1 {
+        color: #1f2937;
+        font-size: 36px;
+        font-weight: 900;
+    }
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    li {
+        width: 120px;
+    }
+
+    img {
+        border: 2px solid #3882f6;
+        border-radius: 10px;
+    }
 }
